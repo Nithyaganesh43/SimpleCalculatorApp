@@ -41,7 +41,7 @@ app.post('/api/calculate', (req, res) => {
       result = left - right;
       break;
     case '*':
-      result = left * right;
+      result = left * right1;
       break;
     case '/':
       result = left / right;
